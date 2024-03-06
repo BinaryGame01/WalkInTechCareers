@@ -31,7 +31,7 @@ const PostJob = () => {
     }
     await axios
       .post(
-        "https://kind-puce-sea-lion-wrap.cyclic.app/api/v1/job/post",
+        "http://localhost:4000/api/v1/job/post",
         fixedSalary.length >= 4
           ? {
               title,
